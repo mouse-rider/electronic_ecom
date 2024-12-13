@@ -18,7 +18,7 @@ const Navbar = () => {
       >
         <Link to='/'>
           <h3 className={styles.logo}>
-            Muniyasamy{' '}
+            Munish{' '}
             <span className={styles.logoTheme}>
               Elec{!isNavInLoginOrSignupPage ? '.' : 'tronics'}
             </span>
