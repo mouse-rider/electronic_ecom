@@ -89,7 +89,7 @@ const LoginPage = () => {
           type='email'
           name='email'
           id='email'
-          placeholder='jethalal.gada@gmail.com'
+          placeholder='muniyasamy@gmail.com'
           value={userInputs.email}
           handleChange={handleUserInput}
           disabled={!!activeBtnLoader}
@@ -98,7 +98,7 @@ const LoginPage = () => {
           text='Enter Password'
           name='password'
           id='password'
-          placeholder='babitaji1234'
+          placeholder='muniyasamy123'
           value={userInputs.password}
           handleChange={handleUserInput}
           disabled={!!activeBtnLoader}

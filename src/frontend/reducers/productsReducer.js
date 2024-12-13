@@ -14,13 +14,13 @@ export const initialProductsState = {
   addressList: [
     {
       addressId: 'abc',
-      username: 'Muniyasamy',
+      username: 'Munisamy',
       mobile: 7339142985,
-      alternate: 0887654321,
+      alternate: 876543263,
       city: 'KovilPatti',
       state: 'TamilNadu',
-      pincode: 628721,
-      addressInfo: '3/118, West Street, KovilPatti',
+      pincode: 421306,
+      addressInfo: '1/118, West Street, Kovilpatti',
     },
   ],
   // orderDetails: [],

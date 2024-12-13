@@ -5,17 +5,17 @@ export const FOOTER_LINKS = [
   {
     id: 1,
     icon: <AiOutlineTwitter />,
-    url: 'https://twitter.com/Swastik2001',
+    url: '',
   },
   {
     id: 2,
     icon: <AiFillLinkedin />,
-    url: 'https://www.linkedin.com/in/swastik-patro-2a54bb19b/',
+    url: '',
   },
   {
     id: 3,
     icon: <AiFillGithub />,
-    url: 'https://github.com/swastikpatro',
+    url: '',
   },
 ];
 
@@ -36,8 +36,8 @@ export const SORT_TYPE = {
 export const RATINGS = [4, 3, 2, 1];
 
 export const TEST_USER = {
-  email: 'jethalal.gada@gmail.com',
-  password: 'babitaji1234',
+  email: 'muniyasamy@gmail.com',
+  password: 'muniyasamy123',
 };
 
 export const LOCAL_STORAGE_KEYS = {
@@ -117,28 +117,28 @@ export const ALL_STATES = [
 export const COUPONS = [
   {
     id: uuid(),
-    couponCode: 'DAYA01',
+    couponCode: 'MUNI03',
     text: '30% Off',
     discountPercent: 30,
     minCartPriceRequired: 150000,
   },
   {
     id: uuid(),
-    couponCode: 'BABITA02',
+    couponCode: 'MUNI01',
     text: '20% Off',
     discountPercent: 20,
     minCartPriceRequired: 100000,
   },
   {
     id: uuid(),
-    couponCode: 'TAPU03',
+    couponCode: 'MUNI02',
     text: '10% Off',
     discountPercent: 10,
     minCartPriceRequired: 50000,
   },
   {
     id: uuid(),
-    couponCode: 'BAPUJI04',
+    couponCode: 'MUNI04',
     text: '5% Off',
     discountPercent: 5,
     minCartPriceRequired: 20000,

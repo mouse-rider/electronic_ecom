@@ -88,7 +88,7 @@ const SignupPage = () => {
           type='text'
           name='firstName'
           id='firstName'
-          placeholder='Jethalal'
+          placeholder='Muniya'
           value={userInputs.firstName}
           handleChange={handleInputChange}
           disabled={isSignupFormLoading}
@@ -98,7 +98,7 @@ const SignupPage = () => {
           type='text'
           name='lastName'
           id='lastName'
-          placeholder='Gada'
+          placeholder='Samy'
           value={userInputs.lastName}
           handleChange={handleInputChange}
           disabled={isSignupFormLoading}
@@ -109,7 +109,7 @@ const SignupPage = () => {
           type='email'
           name='email'
           id='email'
-          placeholder='jethalal.gada@gmail.com'
+          placeholder='muniyasamy@gmail.com'
           value={userInputs.email}
           handleChange={handleInputChange}
           disabled={isSignupFormLoading}
@@ -119,7 +119,7 @@ const SignupPage = () => {
           text='Enter Password'
           name='passwordMain'
           id='passwordMain'
-          placeholder='babitaji1234'
+          placeholder='muniyasamy123'
           value={userInputs.passwordMain}
           handleChange={handleInputChange}
           disabled={isSignupFormLoading}

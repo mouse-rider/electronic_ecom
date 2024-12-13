@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import { FOOTER_LINKS } from '../../constants/constants';
+// import { Link } from 'react-router-dom';
+// import { FOOTER_LINKS } from '../../constants/constants';
 import styles from './Footer.module.css';
 import JethaBg from '../../assets/jetha-bg.mp3';
 import useAudio from '../../hooks/useAudio';
@@ -10,19 +10,19 @@ const Footer = () => {
 
   return (
     <section className={styles.footer}>
-      <div className={styles.linksContainer}>
+      {/* <div className={styles.linksContainer}>
         {FOOTER_LINKS.map((singleLink) => (
           <Link key={singleLink.id} to={singleLink.url} target='_blank'>
             {singleLink.icon}
           </Link>
         ))}
-      </div>
+      </div> */}
 
       <div className={styles.copyrightDiv}>
         <span>© {presentYear} </span>
         <div className={styles.jethaDiv}>
           <button onClick={handleSoundPausePlay} className={styles.nameBtn}>
-            Jethalal Gada.
+            Muniyasamy.
           </button>{' '}
           <div className={styles.tooltip}>⚠ Includes Music !!</div>
         </div>
